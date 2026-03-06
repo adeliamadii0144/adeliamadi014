@@ -1,0 +1,14 @@
+FITUR: Tombol DEL pada Kalkulator
+
+Fitur ini digunakan untuk menghapus satu karakter terakhir pada layar kalkulator.
+
+Kode JavaScript:
+
+function deleteLast(){
+    display.value = display.value.slice(0,-1);
+}
+
+Penjelasan:
+- Fungsi deleteLast() digunakan ketika tombol DEL ditekan.
+- slice(0,-1) akan mengambil semua karakter kecuali karakter terakhir.
+- Dengan demikian angka atau operator terakhir yang dimasukkan dapat dihapus satu per satu.
